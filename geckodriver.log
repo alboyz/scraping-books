@@ -1,0 +1,20 @@
+1637048087063	geckodriver	INFO	Listening on 127.0.0.1:42359
+1637048087085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43883" "-no-remote" "-profile" "/tmp/rust_mozprofiles8kgLx"
+1637048096345	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiles8kgLx/search.json.mozlz4", (void 0)))
+JavaScript error: resource:///modules/BrowserGlue.jsm, line 4033: TypeError: invalid assignment to const 'dialogReason'
+DevTools listening on ws://localhost:43883/devtools/browser/a2842bf5-8269-4de2-9cfb-eae35d3b5247
+1637048107221	Marionette	INFO	Listening on port 42899
+1637048108388	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+1637048132903	Marionette	INFO	Stopped listening on port 42899
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
